@@ -1,0 +1,25 @@
+[
+  {
+    "slug": "publication_slug_one",
+    "title": "Publication Title Placeholder",
+    "authors": ["author_one", "author_two"],
+    "venue": "conference_or_journal_placeholder",
+    "year": 2025,
+    "tags": ["tag_one", "tag_two"],
+    "summary": "One-line summary of the publication goes here. Replace with real abstract snippet.",
+    "links": [
+      { "label": "PDF", "url": "https://example.com/paper.pdf" },
+      { "label": "Code", "url": "https://github.com/repo_placeholder" }
+    ]
+  },
+  {
+    "slug": "publication_slug_two",
+    "title": "Second Publication Placeholder",
+    "authors": ["author_three"],
+    "venue": "journal_or_archive_placeholder",
+    "year": 2024,
+    "tags": ["tag_three"],
+    "summary": "Another placeholder entry — replace with citation text.",
+    "links": [{ "label": "Preprint", "url": "https://arxiv.org/abs/placeholder" }]
+  }
+]

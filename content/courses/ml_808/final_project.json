@@ -1,0 +1,52 @@
+{
+  "final_project": {
+    "title": "Final Project: Topics, Requirements, and Key Dates",
+    "description": "Participants are encouraged to present your own causality-related problems or data sets for the final project. Alternatively, you can choose one from the following topics (reading materials will be provided to you):",
+    "topics": [
+      "Causal generative AI for image generation, video generation, or text generation",
+      "Domain specific causal discovery (e.g., for fMRI, MEG, economic data, financial data, and climate data)",
+      "Causal perspective of multi-task learning",
+      "Causal treatment of out-of-distribution prediction",
+      "Prediction in nonstationary environments: invariant representations or the ability to adapt?",
+      "Understanding “feedback” in directed graphical causal representations",
+      "Causality and heterogeneity in learning",
+      "Causality and transfer learning with different feature spaces: why and how does causal knowledge help?",
+      "Causal discovery and complexity measures",
+      "Causal discovery in the presence of confounders from distribution changes",
+      "Towards “universal” causal discovery",
+      "Creativity by causal knowledge integration and counterfactual reasoning",
+      "Causal links vs. associations between genes, traits, and disease (c.f. “Integrative analysis of 111 reference human epigenomes”)",
+      "Causal analysis in stock market and interpretation of the causal relations",
+      "Causality in climate analysis (e.g., prediction and understanding of El Niño; c.f. the “Azimuth El Niño Project”)",
+      "Causality and prediction in nonstationary environments (e.g., the “parable of Google Flu Trends”)",
+      "Finding causal knowledge and using it for crime control",
+      "Causality-based computational social science",
+      "Large language models and causality",
+      "Extrapolation"
+    ],
+    "requirements": "Students are expected to present the selected problems, make progress on the topics, and summarize their achievements. You may complete them alone or in two-person groups.",
+    "timetable": [
+      {
+        "label": "Last day to decide on the topic of your project/essay",
+        "date": "03/03",
+        "time": null
+      },
+      {
+        "label": "Submit a short (one-page) description of the proposed final project & initial ideas",
+        "date": "03/06",
+        "time": "11:59 PM",
+        "notes": [
+          "We recommend using the NeurIPS 2025 LaTeX style template"
+        ]
+      },
+      {
+        "label": "Final version of the project report due",
+        "date": "04/30",
+        "time": "11:59 PM",
+        "notes": [
+          "Please use the NeurIPS 2025 LaTeX style template"
+        ]
+      }
+    ]
+  }
+}

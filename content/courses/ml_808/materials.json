@@ -1,0 +1,57 @@
+{
+  "recommended_textbooks": [
+    {
+      "authors": "Peter Spirtes, Clark Glymour, and Richard Scheines (SGS)",
+      "title": "Causation, Prediction, and Search",
+      "edition": "2nd edition",
+      "publisher": "MIT Press",
+      "year": "2000",
+      "url": null
+    },
+    {
+      "authors": "Judea Pearl",
+      "title": "Causality: Models, Reasoning and Inference",
+      "edition": "2nd edition",
+      "publisher": "Cambridge University Press",
+      "year": "2009",
+      "url": null
+    },
+    {
+      "authors": "Elias Bareinboim",
+      "title": "Causal Artificial Intelligence: A Roadmap for Building Causally Intelligent Systems.",
+      "edition": null,
+      "publisher": null,
+      "year": null,
+      "url": "https://causalai-book.net/"
+    }
+  ],
+  "weekly_materials_note": "Weekly materials (in progress)",
+  "weekly_materials": [
+    {
+      "week": 1,
+      "items": [
+        {
+          "label": "Introduction part 1: broad picture of causality",
+          "url": "https://lms.mbzuai.ac.ae/mod/resource/view.php?id=29873"
+        },
+        {
+          "label": "Introduction part 2: Typical causality problem and initial ideas",
+          "url": "https://lms.mbzuai.ac.ae/mod/resource/view.php?id=29874"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "items": [
+        {
+          "label": "Introduction part 2: Typical causal problems",
+          "url": "https://lms.mbzuai.ac.ae/mod/resource/view.php?id=30203"
+        },
+        {
+          "label": "From probability theory to statistics",
+          "url": "https://lms.mbzuai.ac.ae/mod/resource/view.php?id=30204"
+        }
+      ]
+    }
+  ]
+}

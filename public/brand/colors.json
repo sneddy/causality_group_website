@@ -1,0 +1,38 @@
+{
+    "brand": "MBZUAI",
+    "updated_at": "2026-01-21",
+    "colors": [
+      {
+        "id": "viking",
+        "name": "Viking",
+        "hex": "#4EC1DE",
+        "rgb": [78, 193, 222],
+        "hsl": [192, 69, 59],
+        "cmyk": [65, 13, 0, 13],
+        "usage": ["primary", "accent", "links", "highlights"]
+      },
+      {
+        "id": "white",
+        "name": "White",
+        "hex": "#FFFFFF",
+        "rgb": [255, 255, 255],
+        "hsl": [0, 0, 100],
+        "cmyk": [0, 0, 0, 0],
+        "usage": ["background", "surface", "text-on-dark"]
+      },
+      {
+        "id": "black",
+        "name": "Black",
+        "hex": "#000000",
+        "rgb": [0, 0, 0],
+        "hsl": [0, 0, 0],
+        "cmyk": [0, 0, 0, 100],
+        "usage": ["text", "headings", "icons"]
+      }
+    ],
+    "notes": [
+      "This file is the single source of truth for brand colors for agents and UI.",
+      "Use hex values as primary; other formats are provided for convenience."
+    ]
+  }
+  

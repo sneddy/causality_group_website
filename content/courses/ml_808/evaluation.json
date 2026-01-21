@@ -1,0 +1,52 @@
+{
+  "grades": {
+    "class_participation": {
+      "weight": "5%",
+      "policy": "One absence allowed with no penalty; each additional absence reduces final course grade by 1% unless approved."
+    },
+    "in_class_discussions": {
+      "weight": "5%",
+      "policy": "Raising/answering questions and participating in discussions."
+    },
+    "homework_assignments": {
+      "count": 3,
+      "weight": "20%",
+      "submission": "Moodle (MS Word or PDF); in special situations via email to the course instructor.",
+      "late_policy": "20% deduction if late unless prior instructor approval is obtained."
+    },
+    "midterm_exam": {
+      "weight": "30%",
+      "coverage": "Causal models, identification, discovery methods."
+    },
+    "project": {
+      "total_weight": "40%",
+      "components": {
+        "proposal": "5%",
+        "final_report": "25%",
+        "final_presentation": "10%"
+      },
+      "notes": [
+        "Work with the instructor to decide the project/essay topic.",
+        "You are encouraged (not required) to use the NeurIPS 2025 LaTeX template for the proposal/report."
+      ]
+    }
+  },
+  "deadlines": [
+    {
+      "item": "Decide project/essay topic with instructor",
+      "due": "3 March"
+    },
+    {
+      "item": "Project/essay proposal (one page)",
+      "due": "6 March, 11:59 PM"
+    },
+    {
+      "item": "Final project report",
+      "due": "30 April, 11:59 PM"
+    },
+    {
+      "item": "Final presentation",
+      "due": "TBA"
+    }
+  ]
+}

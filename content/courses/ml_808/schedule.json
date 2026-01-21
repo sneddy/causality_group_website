@@ -1,0 +1,248 @@
+{
+  "main_section": "We will answer the following questions throughout the course:\n\n- What is causality? How can we define it?  \n- Why do humans care about causality? How can AI benefit from it?  \n- Can AI learn causal relations (e.g., which mutations cause the disease)? Can AI recover hidden causal variables? How can this procedure benefit automated scientific discovery?  \n- How can causality benefit generative AI? Can AI learn concepts and use them to achieve controllability & extrapolation? How can LLMs perform (causal and logical) reasoning in a principled way?  \n\nThe course is divided into nine sessions; see below.",
+  "parts": [
+    {
+      "title": "Part I. Introduction",
+      "week": "1 week",
+      "part_id": "part_i",
+      "part_summary": "",
+      "lectures": [
+        {
+          "title": "Introduction — Concepts, problems, and a big picture of machine learning",
+          "date": "01/13 (Tue) & 01/15 (Thu)",
+          "body": "- What is causality and why causality  \n- Simpson’s paradox  \n- Introduction to machine learning and artificial intelligence & how they are connected with causality  \n- Causality-related concepts, principles, and problems: definition of causality, motivation for causal analysis, directed acyclic graphs, interventions, structural equation models  \n- ★Discussion: Why do we care about causality?  \n- Research problems in causality: Causal discovery, causality for machine learning, identification of causal effects, counterfactual reasoning, generative AI, (automated) scientific discovery  \n- Causal generative AI  \n- Summary of fundamental problems and recent achievements  \n- ✓Reading:  \n  1. Pages 1–6 of “Causal discovery and inference: concepts and recent methodological advances” (Spirtes & Zhang), *Applied Informatics*, 2016  \n  2. Chapter 1 of Pearl’s book  \n- ★Open discussion: What do you think of causal analysis in your field?\n\n**Lecture materials (Week 1)**\n- Introduction part 1: broad picture of causality — https://lms.mbzuai.ac.ae/mod/resource/view.php?id=29873  \n- Introduction part 2: Typical causality problem and initial ideas — https://lms.mbzuai.ac.ae/mod/resource/view.php?id=29874"
+        }
+      ]
+    },
+    {
+      "title": "Part II. Preliminaries",
+      "week": "2.5 weeks",
+      "part_id": "part_ii",
+      "part_summary": "*Probabilistic thinking and intuitive causal thinking to basic machine learning, graphical models, and traditional multivariate analysis*",
+      "lectures": [
+        {
+          "title": "From probability theory to statistics",
+          "date": "01/20 (Tue)",
+          "body": "- We will begin by answering the question, “Will the sun rise tomorrow?”, with convincing arguments  \n- Probability axioms, discrete and continuous variables  \n- Statistical independence and conditional independence  \n- Sample statistics: expectation, covariance, and correlation; uncorrelatedness vs. independence  \n- Central Limit Theorem and Cramer Decomposition Theorem  \n- Gaussian distribution  \n  - Why is it widely assumed but rarely encountered?  \n  - Is it a blessing or a challenge to causal discovery?  \n- Three ways of making use of data  \n- Bayes’ rule  \n- Statistical tests  \n- Maximum likelihood estimation (point estimation)  \n- Linear regression  \n- ✓Reading: Chapter on maximum likelihood estimation of *Probability and Statistical Inference* (R. V. Hogg, E. A. Tanis, D. L. Zimmerman)\n\n**Lecture materials (Week 2)**\n- From probability theory to statistics — https://lms.mbzuai.ac.ae/mod/resource/view.php?id=30204"
+        },
+        {
+          "title": "Traditional supervised machine learning — settings, assumptions, basic methods, and model selection",
+          "date": "01/22 (Thu)",
+          "body": "- Supervised learning  \n- From linear to nonlinear models  \n- Nonparametric models  \n- Bias-variance tradeoff  \n- Model selection"
+        },
+        {
+          "title": "Unsupervised learning & reinforcement learning",
+          "date": "01/27 (Tue)",
+          "body": "- Unsupervised learning  \n- Two ways to “simplify” data  \n- Assumptions underlying clustering  \n- Introduction to reinforcement learning"
+        },
+        {
+          "title": "Intuitive causal thinking — graphical models, d-separation, and representation of causal relations",
+          "date": "01/29 (Thu)",
+          "body": "- Graphical models  \n- d-separation  \n- Markov conditions  \n- Causal graphical models"
+        },
+        {
+          "title": "Multivariate analysis — goals, techniques, and connections to causal discovery",
+          "date": "02/03 (Tue)",
+          "body": "- Problem of Principal Component Analysis (PCA)  \n- Development of PCA: maximum variance vs. least reconstruction error  \n- Eigenvalue decomposition  \n- Properties of PCA and relation to regression  \n- Factor analysis: model assumptions and identifiability  \n- Independent component analysis (ICA): linear and nonlinear cases  \n- The (imprecise) connection between multivariate analysis methods with causal analysis  \n- ➡Assignment 1 released\n\n**Lecture materials (Week 2)**\n- Introduction part 2: Typical causal problems — https://lms.mbzuai.ac.ae/mod/resource/view.php?id=30203"
+        }
+      ]
+    },
+    {
+      "title": "Part III. Structural causal models & identification of causal effects",
+      "week": "1 week",
+      "part_id": "part_iii",
+      "part_summary": "",
+      "lectures": [
+        {
+          "title": "Structural causal models",
+          "date": "02/05 (Thu)",
+          "body": "- Pearl's Causal Hierarchy  \n- Interventions and causal effects  \n- Potential outcome framework vs. structural causal models  \n- ✓Reading: Chapter 2 of Bareinboim’s book"
+        },
+        {
+          "title": "Identifiability & identification of causal effects",
+          "date": "02/10 (Tue)",
+          "body": "- Identifiability of causal effects  \n- Controlling confounding bias: back-door and front-door criteria  \n- The Do-calculus  \n- Algorithmic approach for identification  \n- Causal effect estimation  \n- ✓Reading: Chapter 4 of Bareinboim’s book"
+        }
+      ]
+    },
+    {
+      "title": "Part IV. Traditional approaches to causal discovery",
+      "week": "0.5 week",
+      "part_id": "part_iv",
+      "part_summary": "*“Independence” in causal models, constraint- and score-based causal discovery*",
+      "lectures": [
+        {
+          "title": "“Independence” in causal models & constraint-based causal discovery",
+          "date": "02/12 (Thu)",
+          "body": "- “Independence” implied by causal models: general ideas  \n- “Independence” instantiation 1: conditional independence for causal discovery  \n- PC algorithm for causal discovery  \n- FCI algorithm for causal discovery  \n- GES algorithm for causal discovery  \n- Demonstration: Using causal-learn or TETRA for causal analysis  \n- ✓Reading:  \n  1. Chapters 5.4.1 & 5.4.2 of the SGS book  \n  2. Chapter 6.7 of the SGS book  \n  3. “Optimal Structure Identification With Greedy Search” (Chickering), *JMLR*, 2002"
+        }
+      ]
+    },
+    {
+      "title": "Part V. Functional causal model-based approaches",
+      "week": "2 weeks",
+      "part_id": "part_v",
+      "part_summary": "*Linear, non-Gaussian methods and beyond*",
+      "lectures": [
+        {
+          "title": "Linear, non-Gaussian, acyclic causal models (LiNGAM)",
+          "date": "02/17 (Tue)",
+          "body": "- Structural equation models and independence noise (“Independence” instantiation 2)  \n- LiNGAM: identifiability and identification of the causal model  \n- ✓Reading: Shimizu et al., “A linear non-Gaussian acyclic model for causal discovery,” *JMLR*, 2006"
+        },
+        {
+          "title": "Estimating LiNGAM + estimation of cyclic causal models (feedback)",
+          "date": "02/19 (Thu)",
+          "body": "- ICA and its relation to LiNGAM  \n- Estimating LiNGAM with independent noise condition  \n- Interpretation of feedback in causal representations  \n- Linear causal discovery in the presence of feedback  \n- ICA-based local causal discovery  \n- ✓Reading: Lacerda et al., “Discovering cyclic causal models by independent components analysis,” *UAI*, 2008"
+        },
+        {
+          "title": "Traditional causal discovery in the presence of confounders",
+          "date": "02/24 (Tue)",
+          "body": "- Linear causal discovery in the presence of confounders: what is identifiable and how to estimate it?  \n- ✓Reading:  \n  1. Hoyer et al., “Estimation of causal effects using linear nonGaussian causal models with hidden variables,” *International Journal of Approximate Reasoning*, 2008  \n  2. Salehkaleybar et al., “Learning Linear Non-Gaussian Causal Models in the Presence of Latent Variables,” *JMLR*, 2020  \n- ★Discussion: What do you think of causal discovery and those methods?"
+        },
+        {
+          "title": "Nonlinear causal models & Independent causal mechanism for causal discovery",
+          "date": "02/26 (Thu)",
+          "body": "- Post-nonlinear causal models  \n- Nonlinear additive noise models  \n- Estimation of nonlinear causal models  \n- “Independent nonlinear mechanism” for causal discovery in deterministic cases  \n- “Independent mechanism” in linear, high-dimensional case  \n- ✓Reading: Pages 11–18 of “Causal discovery and inference: concepts and recent methodological advances” (Spirtes & Zhang), *Applied Informatics*, 2016  \n- ➡Assignment 2 released"
+        }
+      ]
+    },
+    {
+      "title": "Part VI. Practical issues in causal discovery",
+      "week": "1 week",
+      "part_id": "part_vi",
+      "part_summary": "",
+      "lectures": [
+        {
+          "title": "Causal discovery with nonstationarity, mixed variable types, and selection bias",
+          "date": "03/03 (Tue)",
+          "body": "- Modeling causal processes with continuous/discrete variables  \n- Causal discovery and visualization of nonstationary causal models  \n- Effects of different types of selection bias  \n- Causal discovery in the presence of selection bias  \n- ✓Reading:  \n  1. Huang et al., “Causal discovery from heterogeneous/nonstationary data,” *JMLR*, 2020  \n  2. Zhang et al., “On the Identifiability and Estimation of Functional Causal Models in the Presence of Outcome-Dependent Selection,” *UAI*, 2016  \n  3. Zheng et al., “Detecting and Identifying Selection Structure in Sequential Data,” *ICML*, 2024"
+        },
+        {
+          "title": "Measurement error, missing values, and time series",
+          "date": "03/05 (Thu)",
+          "body": "- Causal discovery in the presence of measurement error  \n- Missing data as a causal problem & causal discovery in the presence of missing data  \n- Granger causality and its relation to constraint-based causal discovery  \n- Structural equal models for causal discovery from time series: Granger causality with instantaneous effects, causal discovery from subsampled data, causal discovery from partially observed processes  \n- ✓Reading:  \n  1. Zhang et al., “Causal discovery in the presence of measurement error: Identifiability conditions,” *UAI*, 2018  \n  2. Tu et al., “Causal discovery in the presence of missing data,” *AISTATS*, 2019  \n  3. Granger, “Testing for causality: a personal viewpoint,” *J. Econ. Dyn. Control*, 1980"
+        }
+      ]
+    },
+    {
+      "title": "Part VII. Causal representation learning (CRL)",
+      "week": "1.5 weeks",
+      "part_id": "part_vii",
+      "part_summary": "",
+      "lectures": [
+        {
+          "title": "CRL in the IID case — benefits from functional constraints or sparsity",
+          "date": "03/10 (Tue)",
+          "body": "- Estimation of latent variables and their causal relations  \n- Tetrad conditions  \n- Rank deficiency and Rank-based Latent Causal Discovery (RLCD)  \n- Generalized Independent Noise (GIN) conditions  \n- Sparsity constraints for identifiability of nonlinear ICA  \n- ✓Reading:  \n  1. Dong et al., “A Versatile Causal Discovery Framework to Allow Causally-Related Hidden Variables,” *ICLR*, 2024  \n  2. Xie et al., “Generalized Independent Noise Condition for Estimating Linear Non-Gaussian Latent Variable Causal Graphs,” *NeurIPS*, 2020  \n  3. Zheng & Zhang, “Generalizing Nonlinear ICA Beyond Structural Sparsity,” *NeurIPS*, 2023"
+        },
+        {
+          "title": "CRL from changes + CRL from temporal data",
+          "date": "03/12 (Thu)",
+          "body": "- Nonlinear ICA with surrogate variables  \n- Partial disentanglement with identifiable changing components  \n- General, nonparametric case  \n- Minimal change principle  \n- Why temporal information helps  \n- Temporal disentanglement  \n- With instantaneous relations  \n- ✓Reading:  \n  1. Hyvärinen et al., “Nonlinear ICA using auxiliary variables and generalized contrastive learning,” *AISTATS*, 2019  \n  2. Kong et al., “Partial disentanglement for domain adaptation,” *ICML*, 2022  \n  3. Zhang et al., “Causal Representation Learning from Multiple Distributions: A General Setting,” *ICML*, 2024  \n  4. Yao et al., “Temporally Disentangled Representation Learning,” *NeurIPS*, 2022"
+        },
+        {
+          "title": "No class",
+          "date": "03/17 & 03/19",
+          "body": "No class"
+        },
+        {
+          "title": "Real problems of CRL",
+          "date": "03/24 (Tue)",
+          "body": "- Psychometric studies  \n- Multi-model causal discovery with latent variables  \n- Refined (causal) CLIP model  \n- ✓Reading:  \n  1. Xie et al., “Multi-domain image generation and translation with identifiability guarantees,” *ICLR*, 2023  \n  2. A paper on refined causal CLIP model will be shared later"
+        }
+      ]
+    },
+    {
+      "title": "Part VIII. Counterfactual reasoning",
+      "week": "1.5 weeks",
+      "part_id": "part_viii",
+      "part_summary": "",
+      "lectures": [
+        {
+          "title": "Counterfactual reasoning",
+          "date": "03/26 (Thu)",
+          "body": "- Counterfactual reasoning vs. traditional prediction  \n- Methods for counterfactual reasoning  \n- Partial identification of counterfactuals  \n- ✓Reading: Chapter 5 of Bareinboim’s book"
+        },
+        {
+          "title": "Counterfactual quantities",
+          "date": "03/31 (Tue)",
+          "body": "- Effect of the treatment on the treated  \n- Probability of causation  \n- Direct & indirect effects  \n- Path-specific effects  \n- ✓Reading: Chapter 5 of Bareinboim’s book"
+        },
+        {
+          "title": "Causal fairness",
+          "date": "04/02 (Thu)",
+          "body": "- Fairness challenges in AI  \n- Causal fairness analysis  \n- Structural fairness measures  \n- ✓Reading: Chapter 6 of Bareinboim’s book"
+        }
+      ]
+    },
+    {
+      "title": "Part IX. Causal view for machine learning and artificial intelligence",
+      "week": "1.5 weeks",
+      "part_id": "part_ix",
+      "part_summary": "",
+      "lectures": [
+        {
+          "title": "Semi-supervised learning, reinforcement learning, and large models",
+          "date": "04/07 (Tue)",
+          "body": "- Semi-supervised learning  \n- Reinforcement learning: learning and using causal representations  \n- Causality of/for large models  \n- ✓Reading:  \n  1. Schölkopf et al., “On causal and anticausal learning,” *ICML*, 2012  \n  2. Huang et al., “AdaRL: What, Where, and How to Adapt in Transfer Reinforcement Learning,” *ICLR*, 2022  \n  3. A paper on causality of/for large models will be provided later (rapidly evolving field)"
+        },
+        {
+          "title": "Transfer learning, image translation, and causal generative AI",
+          "date": "04/09 (Thu)",
+          "body": "- A picture of machine learning, especially deep learning  \n- Transfer learning  \n- Image-to-image translation: a causal perspective  \n- ✓Reading:  \n  1. Zhang et al., “Domain Adaptation as a Problem of Inference on Graphical Models,” *NeurIPS*, 2020  \n  2. Xie et al., “Multi-domain image generation and translation with identifiability guarantees,” *ICLR*, 2023  \n- ★Discussion: How is general-purpose AI connected to causality and how to achieve it?"
+        },
+        {
+          "title": "Unsupervised deep learning, deep generative models, and causal generative AI",
+          "date": "04/14 (Tue)",
+          "body": "- Adversarial vulnerability  \n- How causality helps in unsupervised deep learning  \n- Disentanglement  \n- Autoencoder, GANs, and Stable diffusion models  \n- How causal learning benefits generative AI  \n- Learning concepts from image-text pairs and using them for controllable image generation and editing  \n- Issues with autoregressive text generation & how to improve it  \n- Discussing next steps  \n- ✓Reading:  \n  1. Goodfellow et al., “Generative Adversarial Nets,” *NIPS*, 2014  \n  2. Xie et al., “Learning Vision and Language Concepts for Controllable Image Generation,” *ICML*, 2025  \n  3. Tang et al., “Reflection-Window Decoding: Text Generation with Selective Refinement,” *ICML*, 2025  \n  4. Xie et al., “Causal Compositional Image Generation with Minimal Change,” *arXiv*, 2024  \n- ➡Assignment 3 released"
+        },
+        {
+          "title": "Research Showcase — no class",
+          "date": "04/16",
+          "body": "Research Showcase — no class"
+        }
+      ]
+    },
+    {
+      "title": "Part X. Real applications, review, and outlook",
+      "week": "1 week",
+      "part_id": "part_x",
+      "part_summary": "",
+      "lectures": [
+        {
+          "title": "Applications of causal inference, causal discovery, and causal representation learning",
+          "date": "04/21 (Tue)",
+          "body": "- Causal reinforcement learning  \n- Causal analysis in neuroscience (especially brain network discovery from fMRI)  \n- Causal analysis in finance and biology  \n- Real data sets for causal discovery  \n- Discussion: causality vs. selection"
+        },
+        {
+          "title": "Review and Outlook",
+          "date": "04/23 (Thu)",
+          "body": "- Review: Why causality? How do we find & make use of causality?  \n- How to achieve automated scientific discovery (generation of causal hypotheses followed by verifications)?  \n- Discussion:  \n  - Can we avoid using “causality”?  \n  - Causality in the era of large models?  \n  - Causality facilitates the 2nd scientific revolution?"
+        }
+      ]
+    },
+    {
+      "title": "Weekly materials (in progress)",
+      "week": "",
+      "part_id": "weekly_materials",
+      "part_summary": "",
+      "lectures": [
+        {
+          "title": "Week 1",
+          "date": "",
+          "body": "- Introduction part 1: broad picture of causality — https://lms.mbzuai.ac.ae/mod/resource/view.php?id=29873  \n- Introduction part 2: Typical causality problem and initial ideas — https://lms.mbzuai.ac.ae/mod/resource/view.php?id=29874"
+        },
+        {
+          "title": "Week 2",
+          "date": "",
+          "body": "- Introduction part 2: Typical causal problems — https://lms.mbzuai.ac.ae/mod/resource/view.php?id=30203  \n- From probability theory to statistics — https://lms.mbzuai.ac.ae/mod/resource/view.php?id=30204"
+        },
+        {
+          "title": "Week 3",
+          "date": "",
+          "body": "- *Coming soon*"
+        }
+      ]
+    }
+  ]
+}

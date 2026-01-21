@@ -1,0 +1,52 @@
+[
+  {
+    "id": "uncovering-causal-relationships-multimodal-biological-data",
+    "file": "2025-04-23-multimodal-biological-causality.md",
+    "title": "Uncovering causal relationships in multimodal biological data: A new framework presented at ICLR",
+    "preview_text": "ICLR 2025 work by Yuewen Sun and collaborators shows a flexible framework to uncover causal relations across multimodal biomedical data.",
+    "image_url": "https://staticcdn.mbzuai.ac.ae/mbzuaiwpprd01/2024/08/data-stock-image-1.jpg",
+    "tags": ["research", "causal-discovery", "biomedical"],
+    "date": "2025-04-23",
+    "published": true
+  },
+  {
+    "id": "causalverse-harder-fairer-test",
+    "file": "2025-12-03-causalverse.md",
+    "title": "Causality meets reality: CausalVerse gives AI a harder, fairer test",
+    "preview_text": "New NeurIPS 2025 work introduces CausalVerse, a large benchmark marrying realistic visuals with ground-truth causal graphs for CRL.",
+    "image_url": "https://staticcdn.mbzuai.ac.ae/mbzuaiwpprd01/2025/12/CausalVerse-2.png",
+    "tags": ["research", "benchmark"],
+    "date": "2025-12-03",
+    "published": true
+  },
+  {
+    "id": "causality-drug-development-precision-medicine",
+    "file": "2023-09-18-causality-drug-development.md",
+    "title": "Causality’s role in drug development and precision medicine",
+    "preview_text": "Kun Zhang explains how causal machine learning and organ-on-chip tech can accelerate safer drug development and personalized medicine.",
+    "image_url": "https://staticcdn.mbzuai.ac.ae/mbzuaiwpprd01/2023/09/organ-on-a-chip.jpg",
+    "tags": ["research", "health"],
+    "date": "2023-09-18",
+    "published": true
+  },
+  {
+    "id": "12",
+    "file": "2025-02-05-group-webpage-live.md",
+    "title": "Our group webpage is now live",
+    "preview_text": "We’ve launched a new webpage for our research group as a single home for projects, results, and milestones.",
+    "image_url": null,
+    "tags": ["announcement"],
+    "date": "2026-01-22",
+    "published": true
+  },
+  {
+    "id": "making-the-invisible-visible-causality",
+    "file": "2024-05-13-making-invisible-visible.md",
+    "title": "Making the invisible visible in causality: a new algorithm to identify causal graphs involving both observed and latent variables",
+    "preview_text": "ICLR 2024 work proposes an algorithm that recovers causal graphs with both observed and latent variables from observational data.",
+    "image_url": "https://staticcdn.mbzuai.ac.ae/mbzuaiwpprd01/2024/05/Data-1295x728-1.jpg",
+    "tags": ["research", "causal-discovery"],
+    "date": "2024-05-13",
+    "published": true
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "professor_placeholder",
+    "name": "professor_name",
+    "role": "Professor",
+    "status": "active",
+    "photo_url": "/brand/icon.jpeg",
+    "bio": "Leads the group — replace with a short leadership bio or remove for real content.",
+    "links": [
+      { "label": "Scholar", "url": "https://example.com/scholar_profile" },
+      { "label": "Website", "url": "https://example.com/personal_site" }
+    ],
+    "research_interests": ["research_interest_one", "research_interest_two"],
+    "order_index": 1
+  },
+  {
+    "id": "postdoc_placeholder",
+    "name": "postdoc_name",
+    "role": "Postdoc",
+    "status": "active",
+    "photo_url": "/brand/icon.jpeg",
+    "bio": "Works on research_topic_here — replace with 2–3 sentences.",
+    "links": [
+      { "label": "Scholar", "url": "https://example.com/scholar_profile" },
+      { "label": "GitHub", "url": "https://github.com/username" }
+    ],
+    "research_interests": ["research_interest_three", "research_interest_four"],
+    "order_index": 2
+  },
+  {
+    "id": "student_1",
+    "name": "Ayana Mussabayeva",
+    "role": "PhD",
+    "status": "active",
+    "photo_url": "https://www.ayana.best/misc/ayana.jpg",
+    "bio": "Ayana Mussabayeva is a 2nd year PhD student in ML. She holds MPhil. in Mathematics from University of Manchester and MSc. in Electrical and Computer Engineering from Nazarbayev University.",
+    "links": [
+      { "label": "Website", "url": "https://www.ayana.best/" },
+      { "label": "GitHub", "url": "https://github.com/AyanaMussabayeva" }, 
+      { "label": "LinkedIn", "url": "www.linkedin.com/in/ayana-mussabayeva/" }
+    ],
+    "research_interests": ["Applications of causal representation learning in neuroscience",  "brain-computer interfaces (BCIs)"],
+    "order_index": 3
+  },
+  {
+    "id": "phd_placeholder_two",
+    "name": "student_name_two",
+    "role": "PhD",
+    "status": "active",
+    "photo_url": "/brand/icon.jpeg",
+    "bio": "Another student bio template — describe research track and interests.",
+    "links": [
+      { "label": "Scholar", "url": "https://example.com/scholar_profile" },
+      { "label": "GitHub", "url": "https://github.com/student_handle" }
+    ],
+    "research_interests": ["student_interest_c", "student_interest_d"],
+    "order_index": 4
+  },
+  {
+    "id": "engineer_placeholder",
+    "name": "research_engineer_name",
+    "role": "Research Engineer",
+    "status": "active",
+    "photo_url": "/brand/icon.jpeg",
+    "bio": "Builds tools and infrastructure — replace with real engineer summary.",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/engineer_handle" },
+      { "label": "LinkedIn", "url": "https://linkedin.com/in/engineer_profile" }
+    ],
+    "research_interests": ["tooling_placeholder", "visualization_placeholder"],
+    "order_index": 5
+  }
+]

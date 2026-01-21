@@ -1,0 +1,15 @@
+{
+  "tagline": "Causality Group @ MBZUAI",
+  "headline": "Causal discovery, representation learning, and AI that understands cause and effect",
+  "lede": "Our research spans causal discovery, causal representation learning, and causality-aware ML/AI. We develop methods that handle latent confounding, distribution shifts, nonlinear relationships, general data distributions, and selection bias. We study transfer learning, concept learning, reinforcement learning, and deep learning through a causal lens, while examining philosophical foundations and ethical issues of AI. Applications include neuroscience, biology, healthcare, computer vision, computational finance, and climate analysis.",
+  "cta_label": "See the latest news",
+  "cta_href": "/news",
+  "secondary_label": "Meet the team",
+  "secondary_href": "/people",
+  "featured_projects": ["al-deira-platform"],
+  "highlights": [
+    { "label": "Leadership", "value": "Led by Professors Kun Zhang" },
+    { "label": "Core areas", "value": "Causal discovery, causal representation learning, causality for ML/AI" },
+    { "label": "Applications", "value": "Neuroscience, biology, healthcare, vision, finance, climate" }
+  ]
+}

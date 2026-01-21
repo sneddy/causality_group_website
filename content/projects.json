@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "al-deira-platform",
+    "title": "Al Deira Platform",
+    "summary": "Platform enables analyzing causal relations of students' academic performance in different disciplines for potential future improvement.",
+    "tags": ["education", "causal-analysis", "analytics"],
+    "links": [
+      {
+        "label": "Platform",
+        "url": "http://ec2-3-28-101-216.me-central-1.compute.amazonaws.com/signin/"
+      }
+    ]
+  }
+]

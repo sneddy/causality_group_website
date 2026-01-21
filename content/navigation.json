@@ -1,0 +1,8 @@
+[
+  { "label": "Home", "href": "/" },
+  { "label": "People", "href": "/people" },
+  { "label": "Projects", "href": "/projects" },
+  { "label": "Courses", "href": "/courses" },
+  { "label": "Publications", "href": "/publications" },
+  { "label": "News", "href": "/news" }
+]
