@@ -31,8 +31,8 @@ async function loadAllNews(): Promise<NewsPost[]> {
   if (meta?.length) {
     const posts: NewsPost[] = [];
     for (const entry of meta) {
-      const filePath = entry.file ? path.join(newsDir, entry.file) : null;
-      if (!filePath) continue;
+      if (!entry.file) continue;
+      const filePath = path.join(newsDir, entry.file);
       try {
         const raw = await fs.readFile(filePath, "utf-8");
         const { data, content } = matter(raw);

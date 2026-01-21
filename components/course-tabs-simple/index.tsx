@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { CourseSections } from "@/lib/types";
+import type { CourseSchedulePart, CourseSections } from "@/lib/types";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { AboutTab } from "./AboutTab";
@@ -19,7 +19,7 @@ type Tab = "About" | "Schedule" | "Evaluation" | "Final Project" | "Resources";
 export function CourseTabsSimple({ content, sections }: Props) {
   const [activeTab, setActiveTab] = useState<Tab>("About");
 
-  const scheduleParts = useMemo(() => {
+  const scheduleParts: CourseSchedulePart[] = useMemo(() => {
     return sections.scheduleParts && sections.scheduleParts.length
       ? sections.scheduleParts
       : sections.schedule
@@ -27,7 +27,7 @@ export function CourseTabsSimple({ content, sections }: Props) {
             {
               title: "Class schedule",
               body: sections.schedule,
-              kind: "hero",
+              kind: "hero" as const,
             },
           ]
         : [];

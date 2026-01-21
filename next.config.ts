@@ -15,6 +15,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "www.ayana.best",
       },
+      {
+        protocol: "https",
+        hostname: "media.licdn.com",
+      },
     ],
   },
 };

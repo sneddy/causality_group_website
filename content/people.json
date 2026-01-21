@@ -43,17 +43,20 @@
     "order_index": 3
   },
   {
-    "id": "phd_placeholder_two",
-    "name": "student_name_two",
+    "id": "student_2",
+    "name": "Anuar Aimoldin",
     "role": "PhD",
     "status": "active",
-    "photo_url": "/brand/icon.jpeg",
-    "bio": "Another student bio template — describe research track and interests.",
+    "photo_url": "https://media.licdn.com/dms/image/v2/D4D03AQEhbiUEtuBrgg/profile-displayphoto-scale_400_400/B4DZqiKr0hIgAg-/0/1763657302527?e=1770854400&v=beta&t=g1InYNnKzWOy5ArtKfi_uqDNsBnA87Tv2Z_n6Ts8VIo",
+    "bio": "Anuar Aimoldin is a PhD student in ML, where his research focuses on AI applications in financial market and Neuroscience. He holds an MSc in Applied Mathematics and Computer Science from Moscow State University",
     "links": [
-      { "label": "Scholar", "url": "https://example.com/scholar_profile" },
-      { "label": "GitHub", "url": "https://github.com/student_handle" }
+      { "label": "Website", "url": "https://anuar.best"},
+      { "label": "Scholar", "url": "https://scholar.google.com/citations?user=SE9vprcAAAAJ&hl=en" },
+      { "label": "GitHub", "url": "https://github.com/sneddy" },
+      { "label": "LinkedIn", "url": "www.linkedin.com/in/anuar-aimoldin/" },
+      { "label": "kaggle", "url": "www.kaggle.com/sneddy" }
     ],
-    "research_interests": ["student_interest_c", "student_interest_d"],
+    "research_interests": ["AI for finance", "Applications of causal representation learning in neuroscience"],
     "order_index": 4
   },
   {
