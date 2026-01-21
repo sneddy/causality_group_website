@@ -106,7 +106,7 @@ export function EvaluationTab({ sections, content }: Props) {
                 }
                 if (g?.project) {
                   const parts = g.project.components
-                    ? [
+                    ? ([
                         g.project.components.proposal
                           ? `Proposal ${g.project.components.proposal}`
                           : null,
@@ -116,9 +116,11 @@ export function EvaluationTab({ sections, content }: Props) {
                         g.project.components.final_presentation
                           ? `Final presentation ${g.project.components.final_presentation}`
                           : null,
-                      ].filter(Boolean)
+                      ].filter((p): p is string => typeof p === "string"))
                     : [];
-                  const notes = g.project.notes ?? [];
+                  const notes = (g.project.notes ?? []).filter(
+                    (note): note is string => typeof note === "string",
+                  );
                   items.push({
                     label: "Project",
                     weight: g.project.total_weight,
