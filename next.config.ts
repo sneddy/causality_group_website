@@ -19,6 +19,11 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "media.licdn.com",
       },
+      {
+        // Catch-all for other trusted https image sources
+        protocol: "https",
+        hostname: "**",
+      },
     ],
   },
 };

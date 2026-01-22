@@ -1,16 +1,16 @@
 [
   {
-    "id": "professor_placeholder",
-    "name": "professor_name",
+    "id": "professor_1",
+    "name": "Kun Zhang",
     "role": "Professor",
     "status": "active",
-    "photo_url": "/brand/icon.jpeg",
+    "photo_url": "https://www.andrew.cmu.edu/user/kunz1/images/team/kun-zhang1.jpg",
     "bio": "Leads the group — replace with a short leadership bio or remove for real content.",
     "links": [
       { "label": "Scholar", "url": "https://example.com/scholar_profile" },
       { "label": "Website", "url": "https://example.com/personal_site" }
     ],
-    "research_interests": ["research_interest_one", "research_interest_two"],
+    "research_interests": ["healthcare", "biology", "neuroscience", "computer vision", "computational finance", "climate analysis"],
     "order_index": 1
   },
   {
@@ -21,8 +21,8 @@
     "photo_url": "/brand/icon.jpeg",
     "bio": "Works on research_topic_here — replace with 2–3 sentences.",
     "links": [
-      { "label": "Scholar", "url": "https://example.com/scholar_profile" },
-      { "label": "GitHub", "url": "https://github.com/username" }
+      { "label": "Scholar", "url": "https://scholar.google.com/citations?user=RGoypN4AAAAJ"},
+      { "label": "Website", "url": "https://mbzuai.ac.ae/study/faculty/kun-zhang/" }
     ],
     "research_interests": ["research_interest_three", "research_interest_four"],
     "order_index": 2
