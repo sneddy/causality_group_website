@@ -10,7 +10,7 @@ export function CourseCard({ course }: Props) {
   return (
     <div className="card-surface flex h-full flex-col gap-3 rounded-2xl p-5">
       <div className="flex items-center gap-3">
-        <div className="relative h-12 w-12 overflow-hidden rounded-xl border border-white/10 bg-white/5">
+        <div className="relative h-12 w-12 overflow-hidden rounded-xl border border-white/10 bg-white shadow-md">
           <Image
             src="/course_logo.png"
             alt="Course logo"

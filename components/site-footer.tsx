@@ -51,10 +51,6 @@ export function SiteFooter({ navItems }: Props) {
           <p className="text-slate-500">
             © {year} Causality Group @ MBZUAI. All rights reserved.
           </p>
-          <p className="text-slate-500">
-            Built with Next.js & Tailwind. Content editable in /content and
-            Supabase.
-          </p>
         </div>
       </div>
     </footer>

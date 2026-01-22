@@ -12,7 +12,7 @@ export function SiteHeader({ navItems }: Props) {
     <header className="sticky top-0 z-40 border-b border-white/5 bg-[#04070e]/85 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center gap-5 px-5 py-4">
         <Link href="/" className="flex items-center gap-3 text-white">
-          <div className="relative h-11 w-11 overflow-hidden rounded-lg border border-white/10 bg-white/5">
+          <div className="relative h-11 w-11 overflow-hidden rounded-lg border border-white/10 bg-white shadow-md">
             <Image
               src="/brand/logo.png"
               alt="MBZUAI logo"
